@@ -1,0 +1,10 @@
+.idea
+build
+.gradle
+*.iml
+styles.css
+styles.css.gz
+classes
+out
+target
+
