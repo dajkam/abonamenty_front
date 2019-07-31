@@ -36,6 +36,15 @@ class MyUI : UI() {
                     layout.label("Thanks ${name.value}, it works!")
                 }
             }
+
+            button("Naciśnij mnie") {
+                onLeftClick {
+
+                    println("Dzięki ${name.value.reversed()}, kurwa")
+                    layout.label("Dzięki ${name.value.reversed()}, kurwa")
+                }
+
+            } // edited by Filip
         }
     }
 }
